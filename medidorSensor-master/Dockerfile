@@ -23,4 +23,4 @@ EXPOSE 8080
 COPY --from=build /app/target/*.jar app.jar
 
 # Establece el comando para ejecutar el JAR
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]docker --version
